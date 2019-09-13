@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'MinionPro-Bold';
+    src: url('../fonts/MinionPro/MinionPro-Bold.eot');
+    src: url('../fonts/MinionPro/MinionPro-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/MinionPro/MinionPro-Bold.woff2') format('woff2'), url('../fonts/MinionPro/MinionPro-Bold.woff') format('woff'), url('../fonts/MinionPro/MinionPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MinionPro-Regular';
+    src: url('../fonts/MinionPro/MinionPro-Regular.eot');
+    src: url('../fonts/MinionPro/MinionPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/MinionPro/MinionPro-Regular.woff2') format('woff2'), url('../fonts/MinionPro/MinionPro-Regular.woff') format('woff'), url('../fonts/MinionPro/MinionPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: url('../fonts/Intro/Intro.eot');
+    src: url('../fonts/Intro/Intro.eot?#iefix') format('embedded-opentype'), url('../fonts/Intro/Intro.woff2') format('woff2'), url('../fonts/Intro/Intro.woff') format('woff'), url('../fonts/Intro/Intro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intro-Bold';
+    src: url('../fonts/Intro/Intro-Bold.eot');
+    src: url('../fonts/Intro/Intro-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Intro/Intro-Bold.woff2') format('woff2'), url('../fonts/Intro/Intro-Bold.woff') format('woff'), url('../fonts/Intro/Intro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

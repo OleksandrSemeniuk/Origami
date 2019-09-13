@@ -1,0 +1,70 @@
+@base_color_yellow: #f7e034;
+@base_color_green: #a7ca30;
+@base_color_black: #000000;
+@base_color_gray: #595959;
+@base_color_orange_text: #e58b20;
+@base_color_green_text: #91a258;
+@base_color_white_text: #FFFFFF;
+
+@base_font: 'Intro';
+@base_font_size: 14px;
+@h1_font_size: 30pt;
+@h4_font: 'Montserrat-Regular';
+@p_font: 'OpenSans';
+@p_font_size: 12pt;
+
+
+
+
+.flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	// flex-wrap: wrap;
+}
+.text_center{
+	text-align: center;
+}
+.rotate(@deg){
+	-moz-transform:rotate(@deg);
+	-webkit-transform:rotate(@deg);
+	transform:rotate(@deg);
+}
+.translate(@x:0, @y:0){
+	-moz-transform:translate(@x, @y);
+	-webkit-transform:translate(@x, @y);
+	transform:translate(@x, @y);
+}
+.scale(@index){
+	-moz-transform:scale(@index);
+	-webkit-transform:scale(@index);
+	transform:scale(@index);
+}
+.btn_block{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.transition(@style:all, @time:0.3s, @anim:ease-in-out){
+	-moz-transition:@style @time @anim;
+	-webkit-transition:@style @time @anim;
+	transition:@style @time @anim;
+}
+.box-shadow(@params){
+	-moz-box-shadow:@params;
+	-webkit-box-shadow:@params;
+	box-shadow:@params;
+}
+.base_gradiend{
+	background: rgba(243,129,129,1);
+	background: -moz-linear-gradient(top, rgba(243,129,129,1) 0%, rgba(252,227,138,0.9) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(243,129,129,1)), color-stop(100%, rgba(252,227,138,0.9)));
+	background: -webkit-linear-gradient(top, rgba(243,129,129,1) 0%, rgba(252,227,138,0.9) 100%);
+	background: -o-linear-gradient(top, rgba(243,129,129,1) 0%, rgba(252,227,138,0.9) 100%);
+	background: -ms-linear-gradient(top, rgba(243,129,129,1) 0%, rgba(252,227,138,0.9) 100%);
+	background: linear-gradient(to bottom, rgba(243,129,129,1) 0%, rgba(252,227,138,0.9) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f38181', endColorstr='#fce38a', GradientType=0 );
+}
+

@@ -1,0 +1,152 @@
+                /*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width: 1230px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .flex {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-md-4 {
+        margin: 0 auto;
+        width: auto;
+        padding-bottom: 15px;
+    }
+    .col-12 {
+        margin: 0 auto;
+        width: auto;
+        padding-bottom: 15px;
+        flex: none;
+    }
+    .service-item:not(:nth-last-child(-n+2)) {
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 50px;
+        padding-bottom: 40px;
+    }
+    @media only screen and (max-width: 664px) {
+        .planshet {
+            width: 50%;
+        }
+        .mobile {
+            position: absolute;
+            bottom: -60px;
+            left: 21%;
+            margin-left: 140px;
+            width: 26%;
+            height: 81%;
+        }
+        .flex {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            align-items: center;
+        }
+        .flex img {
+            margin: 0 auto;
+        }
+        @media only screen and (max-width: 715px) {
+            .flex {
+                display: -webkit-flex;
+                display: -moz-flex;
+                display: -ms-flex;
+                display: -o-flex;
+                display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                align-items: center;
+            }
+            img {
+                margin: 0 auto;
+            }
+            .top-menu li a {
+                font-size: 1vh;
+            }
+            /* Extra Small Devices, Phones */
+            @media only screen and (max-width: 575px) {
+                .service-item:not(:nth-last-child(-n+1)) {
+                    border-bottom: 1px solid #e5e5e5;
+                    margin-bottom: 50px;
+                    padding-bottom: 40px;
+                }
+                .our-brands {
+                    text-align: center
+                }
+                .number {
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 100%;
+                    margin-bottom: 10px;
+                }
+                .count-section {
+                    padding: 0;
+                    background: #95e1d3;
+                    font-family: 'Montserrat', sans-serif;
+                    text-align: center;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-size: 10px;
+                }
+                .our-brands {
+                    text-align: center
+                }
+                .devices {
+                    position: relative;
+                    text-align: center;
+                    width: fit-content;
+                }
+                .article .articleThumb {
+                    position: relative;
+                    margin-bottom: 20px;
+                    margin-left: 10%;
+                }
+                /* Extra Small Devices, Phones */
+                @media only screen and (max-width: 480px) {
+                    .devices {
+                        position: relative;
+                        text-align: center;
+                        width: fit-content;
+                    }
+                }
+                .top-menu li a {
+                    font-size: 1vh;
+                }
+                /* Custom, iPhone Retina */
+                @media only screen and (max-width: 320px) {}
+                @media only screen and (min-width: 768px) {}
+                /*Fix colulmns if height: auto*/
+                @media only screen and (min-width: 1200px) {
+                    .fix-row .fix-col:nth-of-type(4n+1) {
+                        clear: left;
+                    }
+                }
+                @media only screen and (max-width: 1200px) and (min-width: 992px) {
+                    .fix-row .fix-col:nth-of-type(3n+1) {
+                        clear: left;
+                    }
+                }
+                /* @media only screen and (max-width: 992px) and (min-width: 768px) {} */
